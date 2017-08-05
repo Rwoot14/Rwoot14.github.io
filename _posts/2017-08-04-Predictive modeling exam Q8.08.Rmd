@@ -3,7 +3,6 @@ layout: post
 title: "Predictive modeling exam Q8.08"
 author: "Reece Wooten"
 date: 2017-08-04
-output: html_document
 ---
 
 ```{r}
