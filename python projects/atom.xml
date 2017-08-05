@@ -6,9 +6,9 @@ layout: feed
  
  <title>Reece Wooten's Python Projects</title>
  <link href="http://rwoot14.github.io/python projects/atom.xml" rel="self"/>
- <link href="http://rwoot14.github.io/blog"/>
+ <link href="http://rwoot14.github.io/python projects"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://rwoot14.github.io/blog</id>
+ <id>http://rwoot14.github.io/python projects</id>
  <author>
    <name>Reece Wooten</name>
    <email>reece.wooten14@gmail.com</email>
