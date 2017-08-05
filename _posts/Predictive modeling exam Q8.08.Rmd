@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Predictive modeling exam Q8.08"
 author: "Reece Wooten"
 date: "7/29/2017"
