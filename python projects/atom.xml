@@ -4,22 +4,22 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Hank Quinlan's Blog</title>
- <link href="http://hankquinlan.github.io/blog/atom.xml" rel="self"/>
- <link href="http://hankquinlan.github.io/blog"/>
+ <title>Reece Wooten's Python Projects</title>
+ <link href="http://rwoot14.github.io/python projects/atom.xml" rel="self"/>
+ <link href="http://rwoot14.github.io/blog"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://hankquinlan.github.io/blog</id>
+ <id>http://rwoot14.github.io/blog</id>
  <author>
-   <name>Hank Quinlan</name>
-   <email>hankquinlanhub@gmail.com</email>
+   <name>Reece Wooten</name>
+   <email>reece.wooten14@gmail.com</email>
  </author>
 
- {% for post in site.posts %}
+ {% for post in site.posts2 %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://hankquinlan.github.io{{ post.url }}"/>
+   <link href="http://rwoot14.github.io{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://hankquinlan.github.io/{{ post.id }}</id>
+   <id>http://rwoot14.github.io/{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
